@@ -20,9 +20,9 @@ public class VibrateAll extends CordovaPlugin {
     }
 
     private void show(String duration, CallbackContext callbackContext) {
-        if (duration == null || duration.length() == 0) {
-            callbackContext.error("Duration not provided!");
-        } else {
+        // if (duration == null || duration.length() == 0) {
+        //     callbackContext.error("Duration not provided!");
+        // } else {
 
             Vibrator v = (Vibrator) cordova.getActivity().getSystemService(Context.VIBRATOR_SERVICE);
             // Vibrate for 400 milliseconds
@@ -30,6 +30,6 @@ public class VibrateAll extends CordovaPlugin {
 
 
             callbackContext.success(duration);
-        }
+        // }
     }
 }

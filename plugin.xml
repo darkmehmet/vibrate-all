@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="VibrateAll">
-                <param name="android-package" value="com.darkmehmet.VibrateAll" />
+                <param name="android-package" value="com.darkmehmet.VibrateAll.VibrateAll" />
             </feature>
         </config-file>
 
-        <source-file src="src/android/VibrateAll.java" target-dir="src/com/darkmehmet/vibrateAll" />
+        <source-file src="src/android/VibrateAll.java" target-dir="src/com/darkmehmet/VibrateAll" />
     </platform>
 </plugin>
