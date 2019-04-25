@@ -21,6 +21,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/VibrateAll.java" target-dir="src/com/darkmehmet/vibrate-all" />
+        <source-file src="src/android/VibrateAll.java" target-dir="src/com/darkmehmet/vibrateAll" />
     </platform>
 </plugin>

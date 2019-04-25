@@ -1,9 +1,8 @@
-package com.darkmehmet;
+package com.darkmehmet.vibrateAll;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
-import org.json.JSONObject;
 import org.json.JSONException;
 import android.content.Context;
 
@@ -25,12 +24,12 @@ public class VibrateAll extends CordovaPlugin {
             callbackContext.error("Duration not provided!");
         } else {
 
-            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            Vibrator v = (Vibrator) cordova.getActivity().getSystemService(Context.VIBRATOR_SERVICE);
             // Vibrate for 400 milliseconds
             v.vibrate(400);
 
 
-            callbackContext.success(msg);
+            callbackContext.success(duration);
         }
     }
 }
