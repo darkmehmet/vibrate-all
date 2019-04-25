@@ -1,0 +1,14 @@
+{
+  "name": "mehmet-vibrate-all",
+  "version": "0.1.0",
+  "description": "Vibration Library",
+  "cordova": {
+    "id": "mehmet-vibrate-all",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "darkmehmet",
+  "license": "ISC"
+}
