@@ -1,6 +1,6 @@
 {
   "name": "cordova-vibrate-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Android Vibration Plugin",
   "cordova": {
     "id": "darkmehmet-vibrate-all",
