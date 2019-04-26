@@ -1,4 +1,4 @@
-package com.darkmehmet.vibrateAll;
+package com.darkmehmet.VibrateAll;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
