@@ -10,7 +10,6 @@ import android.os.Build ;
 import android.os.Bundle ;
 import android.os.VibrationEffect ;
 import android.os.Vibrator ;
-0
 
 public class VibrateAll extends CordovaPlugin {
     @Override
