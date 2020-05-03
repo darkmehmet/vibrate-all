@@ -46,3 +46,5 @@ public class VibrateAll extends CordovaPlugin {
     }
 }
 
+}
+
